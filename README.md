@@ -25,7 +25,11 @@ Realizamos a padronização e preparação das ferramentas essenciais para o flu
   - Instalação de extensões essenciais para as aulas.
   - Personalização do layout para melhor produtividade.
 
-### Tipo de Desenvolvimento 3/2
+## Conteúdo da Aula Anterior
+
+## Introdução ao Desenvolvimento Mobile
+
+### Tipo de Desenvolvimento
 
 - Nativo
     - Android:
@@ -37,21 +41,23 @@ Realizamos a padronização e preparação das ferramentas essenciais para o flu
     - Ios:
         - SDK: Cocoa Touch
         - IDE: Xcode
-        - Liguagens: Swith / Objectype-C
+        - Liguagens: Swift / Objectype-C
+        - Ambientes: Mac
 
 - Multiplataforma
     - React Native:
         - SDK: Node.JS
-        - IDE: VScode
+        - IDE: VSCode, 
         - Linguagens: JavaScript / TypeScript
-        - Ambiemtes: Mac, Win, Linux
-
-    - Flutter    
+        - Ambientes: Mac, Win, Linux
+    
+    - Flutter
         - SDK: Flutter SDK
         - IDE: VSCode, Android Studio
         - Linguagens: Dart
-        - Ambiente: Mac, Win, Linux
-        ## Preparação do Ambiente de Desenvolvimento
+        - Ambientes: Mac, Win, Linux
+
+## Preparação do Ambiente de Desenvolvimento
 
 ### Instalação do FlutterSDK
 - download do arquivo ZIP na página flutter.dev
@@ -70,4 +76,33 @@ Realizamos a padronização e preparação das ferramentas essenciais para o flu
     - build-tools
 - adicionar ADB e o Emulator as Variáveis de Ambiente
 - Criação da Imagem do Emulador - via sdkmanager
-- Build do Emulador - via sdkmanagerf
+- Build do Emulador - via sdkmanager
+
+### Criação de Projetos e Códigos da Linha de Comando
+
+- criação de projetos
+    - flutter create nome_do_app
+        - flags(parâmetros):
+            - --empty : Cria um aplicativo "vazio"(hello World!)
+            - --platforms : permite a seleção de uma plataforma de desenvolvimento
+                - ex: --platforms=android (a criação do projeto será somente para a plataforma android)
+    - exemplo de criação de uma aplicativo android vazio
+        - flutter create nome_do_app --empty --platforms=android
+        - obs: nome do aplicativo: todas as letras minúsculas, separação de palavras com "_";
+    - flutter doctor
+        - permite correção de pequenos problemas no flutter e identificação dos parâmetros funcionais em relação as plataforma de desenvolvimento
+        - sempre rodar o flutter doctor no começo do desenvolvimento
+    - flutter clean
+        - limpa cache do build(apaga o apk anterior)
+    - flutter run -v 
+        - build do app (apk)
+
+- gerenciamento de dependências do PubSpec()
+    - instalação
+        - flutter pub add nome_dependencia
+    - baixar e instalar dependências projetadas 
+        - flutter pub get
+    - outros comando do flutter pub(dependências)
+        - flutter pub outdated (verifica se as dependências estão desatualizadas)
+        - flutter pub upgrade (atualiza as dependências do flutter pub)
+
