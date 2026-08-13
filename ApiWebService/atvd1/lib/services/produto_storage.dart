@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import '../models/produto.dart';
+// Classe responsável por gerenciar o armazenamento dos produtos em um arquivo JSON
 
 class ProdutoStorage {
   // Retorna a referência do arquivo no diretório de documentos do app
