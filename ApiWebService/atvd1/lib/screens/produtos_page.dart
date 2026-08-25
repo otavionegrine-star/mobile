@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/produto.dart';
-import '../services/produto_storage.dart';
+import '../service/produto_storage.dart';
 
 class ProdutosPage extends StatefulWidget {
   const ProdutosPage({super.key});
