@@ -39,7 +39,7 @@ class FirebaseService {
   // Salva o registro de ponto do funcionário
   Future<void> savePontoRecord({
     required double latitude,
-    required double longitude,
+    required double longitude, String? employeeId, String? employeeEmail,
   }) async {
     final uid = currentUser?.uid ?? localUid ?? 'dev_user';
     final email = currentUser?.email ?? localEmail ?? 'dev@empresa.com';
