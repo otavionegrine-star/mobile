@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "103984029482",
+    "project_id": "registro-ponto-dev",
+    "storage_bucket": "registro-ponto-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103984029482:android:5fa7e9b012345678",
+        "android_client_info": {
+          "package_name": "com.example.atv3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDummyKeyForDevelopment12345678"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
