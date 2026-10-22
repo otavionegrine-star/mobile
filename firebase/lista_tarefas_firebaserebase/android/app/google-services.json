@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856754971836",
+    "project_id": "lista-tarefa-firebase-otavio",
+    "storage_bucket": "lista-tarefa-firebase-otavio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856754971836:android:6a161aaf02220b2df59cb9",
+        "android_client_info": {
+          "package_name": "com.example.lista_tarefas_firebaserebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856754971836-f39h8mkjoc3n1ke6bc6pntdvn3ogbu2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-2LUJpCZNCurWpx5cA6O9Ar2DIyr5H7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856754971836-f39h8mkjoc3n1ke6bc6pntdvn3ogbu2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
